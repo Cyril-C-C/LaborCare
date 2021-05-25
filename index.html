@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>LaborCare</title>
+    <!-- Linking HTML to CSS. -->
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <body>
+      <header class="header" id="header">
+        <section class="navbar" id="navbar">
+          <nav class="nav" id="nav">
+            <h1 class="logo" href="index.html">LaborCare</h1>
+            <section class="nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+              <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">SIGN IN</a></li>
+                <li><a href="">PROFILE</a></li>
+                <li><a href="">MEMBERSHIP</a></li>
+                <li><a href="">SETTING</a></li>
+                <li><a href="">CONTACT</a></li>
+              </ul>
+            </section>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+          </nav>
+        </section>
+      </header>
+
+      <section class="helo-page" id="halo-page">
+        <h2>LaborCare</h2>
+        <p>
+          LaborCare is an application (both web and mobile) where people will
+          easily get access to information of labourers and professionals,<br />
+          and book them for jobs based on locations.
+        </p>
+        <a href="" class="hero-btn">Visit Us For Your Satisfation</a>
+      </section>
+
+      <section class="benefit" id="benefit">
+        <h3>Benefits:</h3>
+        <ul>
+          <li>Easy access to labour.</li>
+          <li>
+            Making choices based on the rating of professionals and labourers.
+          </li>
+          <li>Increasing security for both clients and professionals.</li>
+        </ul>
+      </section>
+
+      <!-- About -->
+      <section class="about" id="about">
+        <h4>About</h4>
+        <p>
+          LaborCare is an application (both web and mobile) where people will
+          easily get access to information of labourers and professionals,<br /><br />
+          and book them for jobs based on locations.
+        </p>
+
+        <section class="row" id="row">
+          <section class="info-column" id="info-column">
+            <h5>As a Client</h5>
+            <p>
+              As a client, who wants to satisfy your needs in most convenient
+              ways, using best practices; LaborCare gives you that opportunity
+              to explore, with ease, professionals (including labourers) who
+              might suit your needs. The profiles of those potentials would
+              speak volume...<br /><br />
+              Browse more to know more...
+            </p>
+          </section>
+
+          <section class="info-column" id="info-column">
+            <h5>As a Profressional (Labourer)</h5>
+            <p>
+              As a professional (or labourer), who wants to find jobs and
+              clients, with convenience, ever willing to patronise with good
+              renumerations; LaborCare gives you that opportunity to search
+              potential clients based on their search histories and
+              locations.<br /><br />
+              Browse more to know more...
+            </p>
+          </section>
+
+          <section class="info-column" id="info-column">
+            <h5>As a Quest</h5>
+            <p>
+              As a Quest, who wants to find jobs and clients or book
+              professionals (labourers) with signing up as a member; LaborCare
+              gives you that opportunity for quick rundowns.<br /><br />
+              Browse more to know more...
+            </p>
+          </section>
+        </section>
+      </section>
+
+      <!-- SignIn & Membership -->
+      <section class="signIn" id="signIn">
+        <h6>Become Your Own Boss...</h6>
+        <p>
+          LaborCare makes you a Boss whether you feel like becoming one or
+          not...
+        </p>
+
+        <section class="row" id="row">
+          <section class="info-column" id="info-column">
+            <h5>As a Client</h5>
+            <p>
+              As a client, who wants to satisfy your needs in most convenient
+              ways, using best practices; LaborCare gives you that opportunity
+              to explore, with ease, professionals (including labourers) who
+              might suit your needs. The profiles of those potentials would
+              speak volume...<br /><br />
+              Browse more to know more...
+            </p>
+          </section>
+
+          <section class="info-column" id="info-column">
+            <h5>As a Profressional (Labourer)</h5>
+            <p>
+              As a professional (or labourer), who wants to find jobs and
+              clients, with convenience, ever willing to patronise with good
+              renumerations; LaborCare gives you that opportunity to search
+              potential clients based on their search histories and
+              locations.<br /><br />
+              Browse more to know more...
+            </p>
+          </section>
+
+          <section class="info-column" id="info-column">
+            <h5>As a Quest</h5>
+            <p>
+              As a Quest, who wants to find jobs and clients or book
+              professionals (labourers) with signing up as a member; LaborCare
+              gives you that opportunity for quick rundowns.<br /><br />
+              Browse more to know more...
+            </p>
+          </section>
+        </section>
+      </section>
+
+      <!-- Linking HTML to JavaScript -->
+      <script src="./app.js"></script>
+    </body>
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-12.5rem";
+      }
+    </script>
+  </head>
+</html>
