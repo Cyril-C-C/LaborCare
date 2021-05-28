@@ -285,3 +285,38 @@ h6{
     }
 }
 
+/*----- Testimonials -----*/
+
+.testimonials{
+    width: 80%;
+    margin: auto;
+    padding-top: 6.25rem;
+    text-align: center;
+}
+
+.testimonial-column{
+    flex-basis: 44%;
+    border-radius: 0.625rem;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #fff3f3;
+    padding: 1.5625rem;
+    cursor: pointer;
+    display: flex;
+}
+
+.testimonial-column img{
+    height: 2.5rem;
+    margin-left: 0.3125rem;
+    margin-right: 1.875rem;
+    border-radius: 50%;
+}
+
+.testimonial-column p{
+    padding: 0;
+}
+
+.testimonial-column h3{
+    margin-top: 0.9375rem;
+    text-align: left;
+}
