@@ -212,6 +212,9 @@ h5{
     .row{
         flex-direction: column;
     }
+    .about h4{
+            font-size: 1.25rem;
+        }
 }
 
 /*----- SignIn -----*/
@@ -283,6 +286,9 @@ h6{
     .row1{
         flex-direction: column;
     }
+    .signIn h6{
+        font-size: 1.25rem;
+    }
 }
 
 /*----- Testimonials -----*/
@@ -292,6 +298,17 @@ h6{
     margin: auto;
     padding-top: 6.25rem;
     text-align: center;
+}
+
+.row2{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+h8{
+    font-size: 2.25rem;
+    font-weight: 600;
 }
 
 .testimonial-column{
@@ -319,4 +336,46 @@ h6{
 .testimonial-column h3{
     margin-top: 0.9375rem;
     text-align: left;
+}
+
+.testimonial-column .fa{
+    color: #f44336;
+}
+
+@media(max-width: 43.75rem){
+    .row2{
+        flex-direction: column;
+    }
+    .testimonials h8{
+        font-size: 1.25rem;
+    }
+    .testimonial-column img{
+        margin-left: 0;
+        margin-right: 0.9375rem;
+    }
+}
+
+/*----- Contact ----- */
+
+.cta{
+    margin: 6.25rem auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(Images/Client2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0.625rem;
+    text-align: center;
+    padding: 6.25rem 0;
+}
+
+.cta h4{
+    color: white;
+    margin-bottom: 2.5rem;
+    padding: 0;
+}
+
+@media(max-width: 43.75rem){
+    .cta h4{
+        font-size: 1.25rem;
+    }
 }
