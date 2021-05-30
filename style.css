@@ -117,6 +117,7 @@ html,body{
 .benefit h3{
     font-size: 0.9rem;
 }
+
 .benefit ul{
     list-style: none;
     margin: 0.5rem 0 0.5rem;
@@ -158,6 +159,13 @@ html,body{
     }
     .nav-links ul li a{
         color: whitesmoke;
+    }
+    .benefit h3{
+        font-size: 0.8rem;
+    }
+    .benefit ul{
+        margin-right: 2.5rem;
+        font-size: 0.6rem;
     }
 }
 
@@ -264,7 +272,7 @@ h6{
     background: rgba(226,0,0,0.7);
 }
 
-.layer h7{
+.layer h7 a{
     width: 100%;
     font-weight: 500;
     color: #fff;
@@ -275,9 +283,10 @@ h6{
     position: absolute;
     opacity: 0;
     transition: 0.5s;
+    text-decoration: none;
 }
 
-.layer:hover h7{
+.layer:hover h7 a{
     bottom: 46.5%;
     opacity: 1;
 }
@@ -374,8 +383,21 @@ h8{
     padding: 0;
 }
 
+.icons .fa{
+    margin: 5rem 0.8125rem;
+    color: red;
+    padding: 1.125rem 0;
+}
+
+.fa-heart-o{
+    color: red;
+}
+
 @media(max-width: 43.75rem){
     .cta h4{
         font-size: 1.25rem;
     }
 }
+
+/*----- LogIn Page ----- */
+
