@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <title>LaborCare</title>
     <link rel="shortcut icon" href="iconTab.ico">
+
     <!-- Linking HTML to CSS. -->
+
     <link rel="stylesheet" type="text/css" href="./style.css" />
+
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -231,23 +234,30 @@
 
         <!-- LogIn Page -->
 
-        <section>
+        <section class="container" id="container">
+          <section class="card" id="card">
+            <section class="inner-box" id="inner-box">
+              <section class="card-front" id="card-front">
+                <section class="card-back" id="card-back">
+                  <h3>SIGNIN</h3>
+                  <form>
+                    <input type="email" class="input-box" id="input-box" placeholder="Your Email ID" required>
+                    <input type="password" class="input-box" id="input-box" placeholder="Password" required>
+                    <button type="submit" class="submit-btn" id="submit-btn">Submit</button>
+                    <input type="checkbox"><span>Remember Me</span>
+                  </form>
+                  <button type="button" class="btn" id="btn">New Membership</button>
+                  <a href="">Forget Password</a>
+                </section>
+              </section>
+            </section>
+          </section>
         </section>
 
       <!-- Linking HTML to JavaScript -->
+
       <script src="./app.js"></script>
     </body>
 
-    <!-- JavaScript for Toggle Menu -->
-    <script>
-      var navLinks = document.getElementById("navLinks");
-
-      function showMenu() {
-        navLinks.style.right = "0";
-      }
-      function hideMenu() {
-        navLinks.style.right = "-12.5rem";
-      }
-    </script>
   </head>
 </html>
