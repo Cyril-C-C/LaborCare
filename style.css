@@ -112,6 +112,12 @@ html,body{
 
 .helo-page h2{
     font-size: 3.9rem;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 400ms;
+}
+    h2:hover{
+    transform: scale(1.50)
 }
 
 .helo-page p{
